@@ -5,7 +5,6 @@ import Header from '../components/Header';
 import Form from '../components/Form';
 import uuid from 'uuid';
 
-
 export class Dashboard extends Component {
 
   state = {
@@ -69,6 +68,7 @@ export class Dashboard extends Component {
         <Header />
         <Form addTodo={this.addTodo} />
         <Parent todos={this.state.todos} markComplete={this.markComplete} delTodo={this.delTodo} />
+
       </div>
     )
   }

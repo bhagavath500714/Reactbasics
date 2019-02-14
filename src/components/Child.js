@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
+
+
 export class Child extends Component {
     getStyle = () => {
         // if(this.props.todo.completed) {
@@ -36,7 +38,7 @@ export class Child extends Component {
                         
                             <button onClick={this.props.delTodo.bind(this, id)} style={btnStyle}>x</button>
                         </div>
-                    </div>
+                    </div>                    
                 </div>
             </React.Fragment>
         )
