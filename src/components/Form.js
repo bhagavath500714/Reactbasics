@@ -32,6 +32,7 @@ export class Form extends Component {
                         style={{ flex: '1' }}
                     />
                 </form>
+                <div>pass method</div>
             </div>
         )
     }
